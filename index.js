@@ -1,5 +1,6 @@
-import { AppRegistry } from "react-native";
+import React from "react";
 import App from "./app/App";
+import { AppRegistry } from "react-native";
 import { name as appName } from "./app.json";
 import ProductProvider from "./app/ui/providers/ProductProvider";
 import CartProvider from "./app/ui/providers/CartProvider";
